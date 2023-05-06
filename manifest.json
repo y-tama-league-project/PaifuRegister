@@ -1,0 +1,59 @@
+{
+    "name": "わいたまりーぐ 牌譜登録ツール",
+    "description": "わいたまりーぐ 牌譜登録ツール",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icons/icon_16.png",
+        "32": "icons/icon_32.png",
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    },
+    "action": {
+        "default_title": "牌譜登録"
+    },
+    "host_permissions": [
+        "https://game.mahjongsoul.com/*",
+        "https://mahjongsoul.game.yo-star.com/*",
+        "https://game.maj-soul.net/*",
+        "https://game.maj-soul.com/*",
+        "https://naga.dmv.nico/naga_report/order_form/",
+        "https://mjai.ekyu.moe/",
+        "https://script.google.com/*",
+        "https://script.googleusercontent.com/*"
+    ],
+    "permissions": [
+        "storage",
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "content_script.js"
+            ],
+            "matches": [
+                "https://game.mahjongsoul.com/*",
+                "https://mahjongsoul.game.yo-star.com/*",
+                "https://game.maj-soul.net/*",
+                "https://game.maj-soul.com/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "https://game.mahjongsoul.com/*",
+                "https://mahjongsoul.game.yo-star.com/*",
+                "https://game.maj-soul.net/*",
+                "https://game.maj-soul.com/*"
+            ],
+            "resources": [
+                "paifu.js"
+            ],
+            "use_dynamic_url": true
+        }
+    ]
+}
