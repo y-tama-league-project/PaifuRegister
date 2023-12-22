@@ -1,4 +1,4 @@
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxfsuVqGYkjQ4CwSqc8bQZHmcnek73u3Z1H_0I7pdWSBHjoJYSieEaEKMOPLllfa34u/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbzL-4-eh4Xy-aLyYyHZM5XSGwkPiykPFr5fzKA1sLy1UA2bVNV52Q5dpH99y5568abW/exec";
 
 async function requestPaifuJson() {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
