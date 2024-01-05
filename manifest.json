@@ -1,7 +1,7 @@
 {
     "name": "わいたまりーぐ 牌譜登録ツール",
     "description": "わいたまりーぐ 牌譜登録ツール",
-    "version": "1.0",
+    "version": "2.0",
     "manifest_version": 3,
     "icons": {
         "16": "icons/icon_16.png",
