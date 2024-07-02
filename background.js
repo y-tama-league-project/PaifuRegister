@@ -1,5 +1,5 @@
-const GAS_URL = "https://script.google.com/macros/s/AKfycbw50POOSlIq3fgaW9A_f1RM9vXossHnLjA5_K7FjK2wTFVIweMC1xCymv4el9hl_EQmHg/exec";
-// const GAS_URL = "https://script.google.com/macros/s/AKfycbzL-4-eh4Xy-aLyYyHZM5XSGwkPiykPFr5fzKA1sLy1UA2bVNV52Q5dpH99y5568abW/exec";
+// Project: https://script.google.com/home/projects/11517jt0Cpgf26qHeaPguGMnNwKVuURB9b8x-dY25PKr1S5eim5XZ-7kQ
+const GAS_URL = "https://script.google.com/macros/s/AKfycbz9wX_tCKfYS7SaxmPXoQ_dzG87C8Hue3MrmFMmHePNyBBmN4_CfGpU5nTFC3yDEXiW/exec";
 
 async function requestPaifuJson() {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
