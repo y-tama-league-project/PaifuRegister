@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         わいたま牌譜登録
+// @icon         https://github.com/y-tama-league-project/PaifuRegister/raw/master/icons/icon_128.png
 // @author       MAX
-// @version      2.0.0
+// @version      2.0.3
 // @description  わいたまりーぐの牌譜を登録します
 // @match        https://game.mahjongsoul.com/*
 // @grant        GM_notification
@@ -79,10 +80,10 @@
             },
             data: json,
             onload: response => {
-                GM_notification("牌譜登録", `牌譜情報を送信しました\nUUID:${uuid}`, null, null);
+                GM_notification("牌譜登録", `牌譜情報を送信しました\nUUID:${uuid}`, "https://github.com/y-tama-league-project/PaifuRegister/raw/master/icons/icon_128.png", null);
             },
             onerror: e => {
-                GM_notification("牌譜登録", `牌譜情報の送信時にエラーが発生しました\nUUID${uuid}`, null, null)
+                GM_notification("牌譜登録", `牌譜情報の送信時にエラーが発生しました\nUUID${uuid}`, "https://github.com/y-tama-league-project/PaifuRegister/raw/master/icons/icon_128.png", null)
                 console.error(e);
             }
         });
