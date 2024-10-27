@@ -7,6 +7,8 @@
 // @grant        GM_notification
 // @grant        GM_xmlhttpRequest
 // @run-at       context-menu
+// @updateURL    https://github.com/y-tama-league-project/PaifuRegister/raw/master/main.js
+// @downloadURL  https://github.com/y-tama-league-project/PaifuRegister/raw/master/main.js
 // ==/UserScript==
 
 (function() {
