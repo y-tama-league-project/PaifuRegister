@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         わいたま牌譜登録
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @author       MAX
+// @version      2.0.0
 // @description  わいたまりーぐの牌譜を登録します
 // @match        https://game.mahjongsoul.com/*
 // @grant        GM_notification
