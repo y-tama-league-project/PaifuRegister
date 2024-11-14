@@ -15,8 +15,8 @@
 (function() {
     'use strict';
 
-    // Project: https://script.google.com/home/projects/11517jt0Cpgf26qHeaPguGMnNwKVuURB9b8x-dY25PKr1S5eim5XZ-7kQ
-    const GAS_URL = "https://script.google.com/macros/s/AKfycbz9wX_tCKfYS7SaxmPXoQ_dzG87C8Hue3MrmFMmHePNyBBmN4_CfGpU5nTFC3yDEXiW/exec";
+    // Project: https://script.google.com/home/projects/1M3WjeJv8sW4eK3GOygzUtz77Uk7uWj95mVw9VHUZy4e-Gnp0HMMdZTfq/edit
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbzDgmKdycQkNWgvb_VB_PoEPDZdwI639h0qBjSdzIJ1pl6iU_SLX8dX_-wQXBp7rJxH/exec";
 
     // 入力パターンは以下の6パターンに対応
     // 雀魂牌譜: https://game.mahjongsoul.com/?paipu={UUID}_aXXXXXXXXX
