@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         わいたま牌譜登録
+// @name         わいたま和了情報登録
 // @icon         https://github.com/y-tama-league-project/PaifuRegister/raw/master/icons/icon_128.png
 // @author       MAX
 // @version      2.0.3
