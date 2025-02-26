@@ -2,7 +2,7 @@
 // @name         わいたま牌譜登録
 // @icon         https://github.com/y-tama-league-project/PaifuRegister/raw/master/icons/icon_128.png
 // @author       MAX
-// @version      2.0.4
+// @version      4.0.1
 // @description  わいたまりーぐの牌譜を登録します
 // @match        https://game.mahjongsoul.com/*
 // @grant        GM_notification
@@ -26,7 +26,7 @@
     // {UUID}_aXXXXXXXXX
     // {UUID}
     const input_text = prompt("第4シーズンの牌譜を登録します\n牌譜URL(UUID)を入力してください");
-    const match = input_text.match(/^(雀魂牌譜: )?(https:\/\/game.mahjongsoul.com\/\?paipu=)?(\d+(-[0-9a-f]+){5})(_a\d+)?$/);
+    const match = input_text.match(/^(雀魂牌譜:\s*)?(https:\/\/game.mahjongsoul.com\/\?paipu=)?(\d+(-[0-9a-f]+){5})(_a\d+)?$/);
     if (!match) {
         alert("牌譜URL(UUID)を入力してください");
         return;
