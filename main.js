@@ -15,7 +15,7 @@
 (function () {
     'use strict';
 
-    const GAS_URL = "https://script.google.com/macros/s/AKfycbzDzfTehawROhitJl-fIw4I7Vw8oRup-qFmJ4Lrqvcvt8DQsa2K9WnuT5pj5NqzFX-f/exec?p=game/register-game-result";
+    const GAS_URL = "https://script.google.com/macros/s/AKfycbxpJH4JAT1BTTTUostmPCVYiRdplaaBSiDYDzqjVAjR2ZAQKchSmiJq2z3T1yDMKyeW2Q/exec?p=game/register-game-result";
 
     // Utility function to create and style an element
     function createElement(tag, styles = {}, attributes = {}) {
