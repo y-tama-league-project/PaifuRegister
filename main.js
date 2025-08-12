@@ -2,7 +2,7 @@
 // @name         わいたま牌譜登録
 // @icon         https://github.com/y-tama-league-project/PaifuRegister/raw/master/icons/icon_128.png
 // @author       MAX
-// @version      4.1.0
+// @version      5.0.0
 // @description  わいたまりーぐの牌譜を登録します
 // @match        https://game.mahjongsoul.com/*
 // @grant        GM_notification
@@ -44,7 +44,7 @@
         });
 
         const header = createElement('h2', { marginTop: '0', marginBottom: '20px' });
-        header.innerText = '第4シーズンの牌譜を登録します\n牌譜URL(UUID)を入力してください';
+        header.innerText = '第5シーズンの牌譜を登録します\n牌譜URL(UUID)を入力してください';
 
         const closeButton = createElement('button', {
             position: 'absolute',
